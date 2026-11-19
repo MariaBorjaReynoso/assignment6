@@ -3,7 +3,7 @@
   Date: 11/19/2026
   CSC 372-01
 
-  Database model for Triviabook. Handles all SQL queries for topics and questions.
+  Database model for Triviabook which handles all SQL queries for topics and questions.
 */
 
 const pool = require('./db');
@@ -18,7 +18,7 @@ async function getAllTopics() {
 }
 
 /**
- * Finds a single topic by name (case-insensitive).
+ * Finds a single topic by name.
  * @param {string} topicName - The name of the topic
  * @return {Promise<Object|undefined>} Topic record if found
  */

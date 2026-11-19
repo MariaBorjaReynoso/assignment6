@@ -3,7 +3,7 @@
   Date: 11/19/2026
   CSC 372-01
 
-  Creates the relational database tables and inserts the initial seed data for Triviabook.
+  Creates the relational database tables and inserts the initial seed data for Triviabook
 */
 
 const pool = require('../models/db');

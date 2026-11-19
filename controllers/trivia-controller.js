@@ -92,7 +92,7 @@ async function fetchRandomQuestion(req, res) {
 
 /**
  * POST /triviabook/answer
- * Checks a user's guess against the stored answer (case-insensitive, trimmed).
+ * Checks a user's guess against the stored answer.
  * @param {Object} req - Express request object
  * @param {Object} res - Express response object
  * @return {Promise<void>}
@@ -126,7 +126,7 @@ async function checkAnswer(req, res) {
 
 /**
  * POST /triviabook/question/add
- * Adds a new question (and creates topic if new), returning updated topic questions.
+ * Adds a new question, returning updated topic questions.
  * @param {Object} req - Express request object
  * @param {Object} res - Express response object
  * @return {Promise<void>}

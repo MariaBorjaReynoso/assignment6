@@ -3,7 +3,7 @@
   Date: 11/19/2026
   CSC 372-01
 
-  Client-side JavaScript for Triviabook. Connects the UI to the backend
+  User side JavaScript for Triviabook. Connects the UI to the backend
   REST API using fetch() and builds DOM elements dynamically.
 */
 
@@ -143,7 +143,7 @@ async function fetchRandomTrivia() {
 
 /**
  * Submits the user's guess for the current random question and displays feedback.
- * @param {Event} event - Form submit event
+ * @param {Event} event: Form submit event
  * @return {Promise<void>}
  */
 async function handleGuessSubmit(event) {

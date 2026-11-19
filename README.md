@@ -1,6 +1,6 @@
 # Triviabook
 
-A full-stack Node.js, Express, and PostgreSQL trivia web application built for CSC 372-01.
+A full stack Node.js, Express, and PostgreSQL trivia web application
 
 ## Live Links
 - **GitHub Repository:** https://github.com/MariaBorjaReynoso/assignment6

@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background-color: #1e3a8a;
+  background-color: #fbb0fd; header {
   color: #ffffff;
   text-align: center;
   padding: 2rem 1rem;
@@ -55,7 +55,7 @@ main {
 }
 
 button {
-  background-color: #2563eb;
+  background-color: #ff7edf;
   color: #ffffff;
   border: none;
   padding: 0.55rem 1rem;
@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-  background-color: #1d4ed8;
+  background-color: #ff82e6;
 }
 
 input,
@@ -156,4 +156,5 @@ select {
 
 #guess-form input {
   flex: 1;
+}
 }
